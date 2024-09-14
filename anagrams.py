@@ -1,8 +1,11 @@
 class Anagrams(object):
+
+    #This is initialization of class to receive two words.
     def __init__(self,a,b):
         self.word1 = a
         self.word2 = b
-
+    
+    #This fuction make two words which recognize if there are anagrams,then the function will return True or False.
     def match(self):
         if len(self.word1) != len(self.word2):
             return False
